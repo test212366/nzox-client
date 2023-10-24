@@ -1,0 +1,426 @@
+@media(max-width: 1900px) {
+    .user__head {
+        left: 26%;
+        width: 56%;
+    }
+    .chat__input {
+        left: 26%;
+        width: 56%;
+    }
+    .personal__manager {
+        width: 19%;
+    }
+    .chat {
+        width: 57%;
+    }
+    }
+@media(max-width: 1800px) {
+    .user__head {
+        left: 26.4%;
+    }
+    .activeInfo {
+        width: 348px;
+    }
+    .info {
+        width: 418px;
+    }
+
+}
+@media(max-width: 1700px) {
+    .user__head {
+        left: 26.7%;
+
+    }
+}
+@media(max-width: 1550px) {
+    .user__head {
+        left: 27.1%;
+    }
+    .chat__input {
+        left: 27%;
+    }
+
+    .info {
+        width: 307px;
+    }
+	 .typed {
+		left: 28%;
+	 }
+}
+@media(max-width: 1400px) {
+    .chat {
+        width: 55%;
+    }
+
+    .user__head {
+        width: 54%;
+        left: 27.6%;
+    }
+    .chat__input {
+        width: 54%;
+    }
+
+
+}
+@media(max-width: 1250px) {
+    .user__head {
+
+        left: 28.3%;
+    }
+	 .typed {
+		left: 35%;
+	 }
+    .personal__manager {
+        display: none;
+    }
+    .bookmarks-width {
+        display: block !important;
+    }
+    .chat__input {
+        left: 27.5%;
+    }
+
+    .messages__all {
+        width: 28% !important;
+    }
+    .chat {
+        width: 69%;
+    }
+    .user__head {
+        right: 0;
+        left: unset;
+        width: 66%;
+    }
+    .chat__input {
+        left: unset;
+        right: 10px;
+        width: 65%;
+    }
+
+}
+@media(max-width: 1060px) {
+    .user__head {
+        width: 64%;
+    }
+    .bookmarks-width {
+        width: 72% !important;
+    }
+}
+@media(max-width: 1000px) {
+	 
+    .chat {
+        width: 60%;
+        overflow-x: hidden;
+    }
+    .messages__all {
+        width: 32.3% !important;
+    }
+	 .typed {
+		left: 39%;
+	 }
+
+
+    .user__head {
+        width: 59%;
+    }
+    .info {
+        width: 274px;
+
+    }
+    .chat__input {
+
+        width: 60%;
+    }
+}
+@media(max-width: 900px) {
+	.chat__messages.chatMessagesHave {
+		padding: 78px 7px 189px;
+  }
+	.typed {
+		bottom: 160px;
+		left: 34%;
+	}
+	.setStatusContacts {
+		transform: translate(-66px,20px);
+	}
+    .chat__input {
+        bottom: 72px;
+    }
+	 .chat__messages {
+		padding-bottom: 160px;
+	 }
+    .bookmarks-width {
+        width: 100% !important;
+    }
+    .wrapper__buttons {
+        transform: translateY(-55px);
+    }
+    .messages__all {
+        width: 100% !important;
+    }
+    .chat {
+        width: 100%;
+    }
+    .chat__input {
+        width: 30%;
+        left: 35%;
+    }
+    .user__head {
+         width: 32.5%;
+         left: 33.5%;
+     }
+    .info {
+        width: 353px;
+    }
+
+    .personal__manager {
+        display: block;
+        width: 100%;
+    }
+    .container {
+        display: block;
+    }
+    .phoneDisflex {
+        display: flex;
+    }
+    .created__wrapper {
+		left: unset;
+		transform: unset;
+		--webkit-transform: unset;
+		right: 0;
+		top: 100px;
+		margin: 10px;
+		width: 31.333%;
+    }
+    .settingsItem {
+        width: 77%;
+    }
+    .settings__buttons button .arrow {
+        right: 23%;
+    }
+}
+@media(max-width: 755px) {
+
+    .contacts__userDesc {
+        padding: 70px 0 0 0;
+    }
+    .wrapper__contacts-user {
+        width: 70%;
+        transform: translateX(20%);
+    }
+    .contacts__user-head p {
+        font-size: 15px;
+    }
+    .info__footer {
+        font-size: 10px;
+    }
+}
+@media(max-width: 700px) {
+    
+    .chat__input {
+        width: 33%;
+        left: 32.5%;
+		  
+    }
+    .contacts__user-head {
+        padding: unset;
+    }
+}
+@media(max-width: 650px) {
+    .wrapper__buttons h1 {
+        font-size: 15px;
+    }
+    .wrapper__buttons p {
+        font-size: 25px;
+    }
+
+    
+    .settings__buttons button .arrow {
+        right: 16%;
+    }
+}
+@media(max-width: 600px) {
+    .register__container {
+        width: 90%;
+        margin: 0 50px 0 50px;
+    }
+    .user__head {
+        padding: 18px;
+
+    }
+    .user__name {
+        font-size: 15px;
+    }
+   
+    .activeInfo {
+
+        font-size: 12px;
+    }
+    .contacts__user-head p {
+        font-size: 12px;
+    }
+    .settingsItem {
+        width: 100%;
+    }
+    .message__user-photo img {
+        width: 30px;
+        height: 30px;
+    }
+    .message__descripti {
+        margin-left: 38px;
+    }
+    .wrapper__description-message {
+        margin-top: 10px;
+    }
+    .borderYou {
+        margin-top: -10px;
+        margin-right: 39px;
+    }
+}
+@media(max-width: 550px) {
+	 
+	.register__container {
+		padding: 10px;
+	}
+	.online {
+		left: 52px;
+	}
+	.info {
+		bottom: 4px;
+	}
+	.or {
+		font-size: 12px;
+	}
+	.BIG {
+		left: 55px!important;
+	}
+    .info svg {
+        height: 25px;
+    }
+ 
+    .navbar {
+        max-width: 58px;
+    }
+    .navig__link.active .navbar__messages {
+        padding: 0 13px;
+    }
+    .min__logo-button {
+
+        left: 16px;
+    }
+    .change__theme {
+        
+        left: 10px;
+    }
+
+    .message__img {
+        width: 50px;
+        height: 50px;
+    }
+    .viewProfile .user__photo img {
+        width: 65px;
+        height: 65px;
+    }
+    .user__online {
+        font-size: 14px;
+    }
+    .user__name {
+        margin-bottom: 0;
+    }
+    .home__input-search {
+        font-size: 12px;
+    }
+    .wrapper__contacts {
+        padding: 20px 10px 10px 10px;
+    }
+    .user__photo img {
+        width: 70px;
+        height: 70px;
+    }
+    .wrapper__contacts-user {
+        width: 100%;
+        transform: unset;
+    }
+}
+@media(max-width: 519px) {
+    .calls svg {
+        height: 25px;
+    }
+    .pine__head svg {
+        height: 50px;
+    }
+    .message__descripti {
+        padding: 10px;
+    }
+    .message__user-photo {
+        transform: translateY(10px);
+    }
+    .message__time {
+        font-size: 11px;
+    }
+    .user__online {
+        font-size: 12px;
+    }
+    .wrapper__confirm {
+        padding: 13px;
+    }
+    .wrapper__confirm p {
+        font-size: 13px;
+        text-align: center;
+    }
+    .presonal__head {
+
+
+        padding-bottom: 18px;
+    }
+	 .setStatusContacts {
+		font-size: 12px;
+	 }
+    .contacts__user-head p {
+        display: none;
+    }
+    .searchContacts {
+        margin-left: 20px;
+        width: 100%;
+    }
+    .contacts__user-head .wrapper__navigation {
+        width: 100%;
+    }
+    .info__footer {
+
+        width: 100%;
+    }
+    .settings__buttons button .arrow {
+        right: 6%;
+    }
+
+}
+@media(max-width: 472px) {
+    .viewProfile .user__photo img {
+        height: 55px;
+        width: 55px;
+    }
+	 .havePhoto {
+		top: 0;
+	 }
+	 .online {
+		left: 44px;
+	 }
+    .send {
+        right: 0;
+    }
+    .voice-message {
+        right: 43px;
+    }
+    .chat__messages {
+        padding: 200px 7px 200px 7px;
+    }
+    .sendView svg {
+        left: 59px;
+    }
+    .info__footer {
+
+        width: 60%;
+    }
+
+}

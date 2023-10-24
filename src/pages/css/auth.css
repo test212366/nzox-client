@@ -1,0 +1,425 @@
+.container__auth {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: #0e1013;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper__buttons {
+    transform: translateY(-200px);
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 20px;
+}
+.wrapper__buttons p {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+}
+.wrapper__buttons h1 {
+    text-align: center;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.705);
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+.wrapper__buttons h1 span {
+    color: #7460f7;
+}
+.login {
+    position: relative;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #3f3f3f;
+    color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: rgba(219, 219, 219, 0);
+    transition: 0.3s ease all;
+}
+.login__logo svg {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    stroke: #3f3f3f;
+    transition: 0.3s ease all;
+}
+.login:hover {
+    color: #4e4e4e;
+    border-color: #7460f7;
+}
+.login:hover svg {
+    stroke: #7460f7;
+}
+.or {
+    align-items: center;
+    color: rgba(255, 255, 255, 0.418);
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+.or hr {
+    margin-top: 13px;
+    border-color: #3f3f3f;
+    width: 45%;
+}
+.registration {
+    position: relative;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #7460f7;
+    transition: 0.3s ease all;
+}
+.registration svg {
+    stroke: #fff;
+    transition: 0.3s ease all;
+}
+.registration:hover {
+    color: black;
+}
+.registration:hover svg {
+    stroke: black;
+}
+.auth__google {
+    margin-top: 20px;
+    position: relative;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #3f3f3f;
+    color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: rgba(219, 219, 219, 0);
+    transition: 0.3s ease all;
+}
+.auth__google:hover {
+    color: #4e4e4e;
+    border-color: #7460f7;
+}
+.auth__google span {
+    color: #7460f7;
+}
+.logoAUTH {
+    position: absolute;
+    top: 20px;
+    stroke: #fff;
+    left: 20px;
+}
+.info__footer {
+	text-align: center;
+    position: fixed;
+    bottom: 50px;
+    font-size: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(255, 255, 255, 0.603);
+}
+.info__footer span {
+    color: #7460f7;
+}
+.info__footer.black {
+    color: #000;
+}
+/*registerSTYLES*/
+.wrapper-close {
+    cursor: pointer;
+	 display: none;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.349);
+    z-index: -1;
+    transition: .3s ease all;
+}
+.active-wrapper-close {
+	display: block;
+    z-index: 10;
+    opacity: 1;
+}
+.register__container {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transform: translate(0, 0%);
+    z-index: -1;
+    padding: 20px;
+    background-color: #0e1013;
+    border-radius: 20px;
+    width: 500px;
+    transition: .3s ease all;
+}
+.register__container-open {
+    top: 30%;
+    opacity: 1;
+    z-index: 11;
+}
+.relative {
+    transition: 0.3s ease all;
+    position: relative;
+}
+.register__container p {
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+}
+.register__container input {
+    outline: none;
+    margin: 5px;
+    padding: 10px 10px 10px 40px;
+    border-radius: 20px;
+    border: 1px solid rgb(78, 78, 78);
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    transition: 0.3s ease all;
+    color: #fff;
+}
+.register__container input:hover {
+    border-color: #7460f7;
+}
+.regM {
+    margin-top: 20px;
+    width: 100%;
+}
+.close {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.452);
+    transition: 0.3s ease all;
+}
+.close:hover {
+    color: #7460f7;
+}
+
+.temp svg {
+    top: 13px;
+    left: 15px;
+}
+.register__wrapper-close {
+    cursor: pointer;
+}
+.error {
+    transition: 0.3s ease all;
+    color: rgba(185, 0, 0, 0.856);
+}
+.seePassword svg {
+    position: absolute;
+    top: 5px;
+	 right: -4px;
+    stroke: rgb(78, 78, 78);
+    cursor: pointer;
+}
+.errors {
+    display: flex;
+    flex-direction: column;
+}
+.confirmEmail {
+    padding: 10px;
+}
+.confirmEmail span {
+    color: #7460f7;
+}
+
+.lds-spinner {
+    display: inline-block;
+    position: absolute;
+    top: -7px;
+    left: 0;
+    width: 50px;
+    height: 50px;
+}
+.lds-spinner div {
+    transform-origin: 40px 40px;
+    animation: lds-spinner 1.2s linear infinite;
+}
+.lds-spinner div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 39px;
+    width: 3px;
+    height: 9px;
+    border-radius: 20%;
+    background: #fff;
+}
+.lds-spinner div:nth-child(1) {
+    transform: rotate(0deg);
+    animation-delay: -1.1s;
+}
+.lds-spinner div:nth-child(2) {
+    transform: rotate(30deg);
+    animation-delay: -1s;
+}
+.lds-spinner div:nth-child(3) {
+    transform: rotate(60deg);
+    animation-delay: -0.9s;
+}
+.lds-spinner div:nth-child(4) {
+    transform: rotate(90deg);
+    animation-delay: -0.8s;
+}
+.lds-spinner div:nth-child(5) {
+    transform: rotate(120deg);
+    animation-delay: -0.7s;
+}
+.lds-spinner div:nth-child(6) {
+    transform: rotate(150deg);
+    animation-delay: -0.6s;
+}
+.lds-spinner div:nth-child(7) {
+    transform: rotate(180deg);
+    animation-delay: -0.5s;
+}
+.lds-spinner div:nth-child(8) {
+    transform: rotate(210deg);
+    animation-delay: -0.4s;
+}
+.lds-spinner div:nth-child(9) {
+    transform: rotate(240deg);
+    animation-delay: -0.3s;
+}
+.lds-spinner div:nth-child(10) {
+    transform: rotate(270deg);
+    animation-delay: -0.2s;
+}
+.lds-spinner div:nth-child(11) {
+    transform: rotate(300deg);
+    animation-delay: -0.1s;
+}
+.lds-spinner div:nth-child(12) {
+    transform: rotate(330deg);
+    animation-delay: 0s;
+}
+@keyframes lds-spinner {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/*loaderCSS*/
+.lds-roller {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.lds-roller div {
+    animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    transform-origin: 40px 40px;
+}
+.lds-roller div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #7460f7;
+    margin: -4px 0 0 -4px;
+}
+.lds-roller div:nth-child(1) {
+    animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+    top: 63px;
+    left: 63px;
+}
+.lds-roller div:nth-child(2) {
+    animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+    top: 68px;
+    left: 56px;
+}
+.lds-roller div:nth-child(3) {
+    animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+    top: 71px;
+    left: 48px;
+}
+.lds-roller div:nth-child(4) {
+    animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+    top: 72px;
+    left: 40px;
+}
+.lds-roller div:nth-child(5) {
+    animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+    top: 71px;
+    left: 32px;
+}
+.lds-roller div:nth-child(6) {
+    animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+    top: 68px;
+    left: 24px;
+}
+.lds-roller div:nth-child(7) {
+    animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+    top: 63px;
+    left: 17px;
+}
+.lds-roller div:nth-child(8) {
+    animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+    top: 56px;
+    left: 12px;
+}
+@keyframes lds-roller {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.loader__auth {
+    position: absolute;
+	 display: none;
+    bottom: -120px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: .3s ease all;
+}
+.loader__auth.activeLoader {
+    opacity: 1;
+	 display: block;
+}
+.local {
+    z-index: 10;
+    bottom: auto;
+}
+.find svg {
+    right: 10px;
+    stroke: #353a3e;
+    fill: transparent;
+}
+.findErrorHR {
+    border-color: #353a3e;
+}

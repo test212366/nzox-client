@@ -1,0 +1,79 @@
+
+/*dark-theme*/
+html[data-theme='dark'] {
+    --background-color-app: #121518;
+    --background-color-aside: #121518;
+    --created-form: #171b1f;
+    --border:  rgba(255, 255, 255, 0.041);
+    --logo-rease:  rgba(255, 255, 255, 0.699);
+    --settings-buttons: #1f1f1f;
+    --text: #fff;
+    --manager: #858585;
+    --info:#191e22;
+    --theme-border: #353a3e;
+    --thumb: #121314;
+    --button-bg: #151a1e;
+    --settings-item: #10121456;
+    --message-last: #5a5a5a;
+    --logo-svg: #fff;
+    --min-logo: #fff;
+    --search-svg: #101316c4;
+    --home-input-search: #1c2125;
+    --audio-range-item: rgba(255, 255, 255, 0.39);
+    --record: rgba(255, 0, 0, 0.377);
+    --message-desc: #1c2125;
+    --read-text: #0c8ee47a;
+    --theme-color-second: #7460f7;
+    --grey-color-text-opacity: rgba(255, 255, 255, 0.3);
+    --grey-text: rgba(255, 255, 255, 0.5);
+    --audio-wrapper: #4d3bc4;
+    --audio-time: rgba(255, 255, 255, 0.637);
+    --svg-white: #fff;
+    --wrapper-audio-listen: rgba(255, 255, 255, 0.308);
+    --settings-show-accordion: rgba(0, 0, 0, 0.103);
+    --ui: rgba(0, 0, 0, 0.226);
+    --wrapper-confirm-btn: #1f1f1fb2;
+    --confirm-exit: rgba(0, 0, 0, 0.459);
+    --navig-svg:#FFFFFF4E;
+    --nagiv-svg-stroke: #FFFFFF4E;
+    --info-text: rgba(255, 255, 255, 0.603);
+}
+
+html[data-theme='light'] {
+    --navig-svg: #656565;
+    --nagiv-svg-stroke: #000000;
+    --background-color-app: #ffffff;
+    --background-color-aside: #ffffff;
+    --created-form: #e8e8e8;
+    --border: rgba(0, 0, 0, .2);
+    --logo-rease: rgba(0, 0, 0, 0.7);
+    --settings-buttons: #dcdcdc;
+    --text: rgba(0, 0, 0, 0.74);
+    --manager: #858585;
+    --info: #dfdfdf;
+    --theme-border: #a29c9c;
+    --thumb: #b2b2b2;
+    --button-bg: #eaeaea;
+    --settings-item: rgb(223 223 223 / 34%);
+    --message-last: #7e7e7e;
+    --logo-svg: #000000;
+    --min-logo: #646464;
+    --search-svg: rgba(108, 108, 108, 0.77);
+    --home-input-search: #dfdfdf;
+    --audio-range-item: rgba(255, 255, 255, 0.39);
+    --record: rgba(255, 0, 0, 0.377);
+    --message-desc: #989898;
+    --read-text: #0c8ee47a;
+    --theme-color-second: #7460f7;
+    --grey-color-text-opacity: rgba(0, 0, 0, 0.3);
+    --grey-text: #dfdfdf;
+    --audio-wrapper: #4d3bc4;
+    --audio-time: rgba(255, 255, 255, 0.637);
+    --svg-white: #000000;
+    --wrapper-audio-listen: rgba(255, 255, 255, 0.308);
+    --settings-show-accordion: rgba(0, 0, 0, 0.103);
+    --ui: rgba(255, 255, 255, 0.22);
+    --wrapper-confirm-btn: rgba(208, 208, 208, 0.7);
+    --confirm-exit: rgba(222, 222, 222, 0.46);
+    --info-text: black;
+}

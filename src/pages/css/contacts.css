@@ -1,0 +1,67 @@
+.wrapper__contacts {
+    width: 100%;
+    padding: 20px;
+}
+.contacts__user-head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.3s ease all;
+    padding: 10px 20px 10px 20px;
+    border-bottom: var(--border);
+}
+.contacts__user-head p {
+    font-size: 20px;
+    color: var(--text);
+}
+.contacts__user-head p span {
+    color: var(--theme-color-second);
+}
+.setStatusContacts {
+    color: var(--theme-color-second);
+}
+.contacts__userDesc {
+    display: flex;
+    position: relative;
+    padding: 100px 0 0 100px;
+}
+.online {
+    position: absolute;
+    bottom: 8px;
+    left: 62px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+}
+.pmc {
+	width: 95%;
+}
+.wrapper__buttons-contacts {
+    text-align: center;
+}
+.wrapper__contacts-user {
+    width: 50%;
+    transform: translateX(50%);
+}
+.searchContacts {
+    transform: translate(-20px, -5px);
+}
+.message__button {
+    border: 1px solid #5a5a5a;
+    cursor: pointer;
+    color: var(--text);
+    border-radius: 20px;
+    padding: 10px 25px;
+    background: linear-gradient(111deg, #2f313e 0%, #5c4fbd 100%);
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 10px;
+    transition: 0.3s ease all;
+    transform: translate(-80px, 20px);
+}
+.message__button:hover {
+    color: var(--message-last);
+    background: rgba(255, 255, 255, 0);
+}

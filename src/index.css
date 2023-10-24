@@ -1,0 +1,34 @@
+
+@import url("pages/css/vars.css");
+@import url("pages/css/messages.css");
+@import url("pages/css/auth.css");
+@import url("pages/css/contacts.css");
+@import url("pages/css/bookmarks.css");
+@import url("pages/css/settings.css");
+@import url("pages/css/responcive.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
+
+* {
+  box-sizing: border-box;
+
+}
+body {
+  overflow-x: hidden;
+  margin: 0;
+  background-color: var(--background-color-app);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.phoneDisflex {
+  width: 100%;
+}
+
